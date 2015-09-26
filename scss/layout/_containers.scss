@@ -1,0 +1,55 @@
+
+#menu
+{
+	margin: 20px 0px 100px 0px;
+	padding: 0px;
+
+}
+
+#main_container
+{
+	width: 1250px;
+	padding: 0px 0px 0px 10px;
+	margin: auto;
+}
+
+.item
+{
+	margin: 5px 10px 0px 0px;
+	width: 250px;
+	padding: 0px;
+	float: left; /* important */
+	/*position:absolute;  important(so we can absolutely position the description div */
+}
+
+/*
+scroll loading
+*/
+.scroll_loading_div
+{
+	top: 50%;
+
+	width: 200px;
+	height: 150px;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+
+	border-radius: 10px;
+
+	background: rgba(0, 0, 0, 0.5);
+	color: #EEEEEE;
+	text-align: center;
+}
+
+.pic_wall.pic
+{
+	width: 250px;
+}
+
+.fa
+{
+	margin: auto;
+	text-align: center;
+}

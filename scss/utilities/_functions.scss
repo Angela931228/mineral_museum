@@ -1,0 +1,3 @@
+@function eclipse-trans($transparency){
+     @return rgba(61, 55, 54, $transparency);
+}

@@ -1,0 +1,329 @@
+
+.clear
+{
+	clear: both;
+	overflow: hidden;
+	height: 0
+}
+
+
+.aboutus, .termin
+{
+	float: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#left_menu_div
+{
+	float: left;
+	padding: 5px;
+	margin-left: 2%;
+	font: $font-menu;
+}
+
+#left_menu_div a
+{
+	color: $color-eclipse;
+	padding: 5px 12px;
+	text-decoration: none;
+
+}
+
+#left_menu_div a:hover span
+{
+	border-bottom: 2px solid $color-eclipse;
+
+}
+
+
+.menuH
+{
+	background: $color-eclipse;
+	color: $color-milky;
+	padding: 5px 12px;
+	text-decoration: none;
+	width: 90px;
+	height: 15px;
+
+}
+
+.menuDec
+{
+	float: left;
+	display: block;
+	background: $color-eclipse;
+	width: 2px;
+	height: 19px;
+	margin: 6px 10px;
+	white-space: nowrap
+}
+
+
+
+/*
+right navigation div
+*/
+#right_menu_div
+{
+	float: right;
+	padding: 5px;
+	margin-right: 2%;
+}
+
+/*
+drop down menu items
+*/
+#jsddm
+{
+	margin: 0px;
+}
+
+#jsddm > li
+{
+	float: left;
+	margin-left: 5px;
+	font: $font-menu;
+	position: relative;
+}
+
+#jsddm li
+{
+
+	list-style: none;
+}
+
+#jsddm li a
+{
+	display: block;
+
+	text-decoration: none;
+	text-align: left;
+	padding: 0 5px;
+	color: #FFFFFF;
+	font: $font-menu;
+
+}
+
+#jsddm > li > a
+{
+	display: block;
+	padding: 3px 12px;
+	text-decoration: none;
+	text-align: center;
+	width: 80px;
+	height: 14px;
+	color: #FFFFFF;
+	font: $font-menu;
+	margin-top: 6px;
+	margin-right: 3px;
+
+}
+
+
+#jsddm li a .menuRecH
+{
+	display: none;
+}
+
+#jsddm li a .menuRec
+{
+	width: 12px;
+	height: 10px;
+	display: block;
+	position: relative;
+	float: right;
+	background-image: url(../res/menu_species.png);
+	background-position: -95px -3px;
+}
+
+#jsddm li a:hover
+{
+	background: $color-milky;
+	color: $color-eclipse;
+
+}
+
+#jsddm li a:hover .menuRec
+{
+	display: none;
+}
+
+#jsddm li a:hover .menuRecH
+{
+	display: block;
+	width: 12px;
+	height: 10px;
+	display: block;
+	position: relative;
+	float: right;
+	background-image: url(../res/h_button_by_species.png);
+	background-position: -95px -3px;
+}
+
+.nav > li:hover > div
+{
+	display: block;
+}
+
+/*.nav > li > div.right { right: 0; left: auto }*/
+
+.container-1, .container-2, .container-3, .container-4
+{
+	font-size: 80%;
+}
+
+.nav > li > div
+{
+	position: absolute;
+	right: -13px;
+	display: none;
+	color: #EAFFED;
+	@include bgcolor-eclipse-trans(0.96);
+	padding: 0px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	z-index: 9999;
+}
+
+.col1, .col2, .col3, .col4, .col5
+{
+	margin: 5px 0;
+	float: left;
+	padding: 0 0px;
+}
+
+.nav > li > div ul
+{
+	padding: 0px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-left: 2px solid #AAAAAA;
+}
+
+#jsddm li ul li a
+{
+	//border-bottom: 2px solid #EAFFED;
+}
+
+.nav > li > div ul li
+{
+	padding: 5px 5px;
+	margin-left: 10px;
+}
+
+/* 1 Column */
+.container-1
+{
+	width: 150px;
+}
+
+.container-1 .col1
+{
+	width: percentage(1/1);
+}
+
+/* 2 Column */
+.container-2
+{
+	width: 250px;
+}
+
+.container-2 .col1
+{
+	width: percentage(1/2);
+}
+
+.container-2 .col2
+{
+	width: percentage(2/2);
+}
+
+/* 3 Column */
+.container-3
+{
+	width: 400px;
+}
+
+.container-3 .col1
+{
+	width: percentage(1/3);
+}
+
+.container-3 .col2
+{
+	width: percentage(2/3);
+}
+
+.container-3 .col3
+{
+	width: percentage(3/3);
+}
+
+/* 4 Column */
+.container-4
+{
+	width: 500px;
+}
+
+.container-4 .col1
+{
+	width: percentage(1/4);
+}
+
+.container-4 .col2
+{
+	width: percentage(2/4);
+}
+
+.container-4 .col3
+{
+	width: percentage(3/4);
+}
+
+.container-4 .col4
+{
+	width: percentage(4/4);
+}
+
+/* 5 Column */
+.container-5
+{
+	width: 600px;
+}
+
+.container-5 .col1
+{
+	width: percentage(1/5);
+}
+
+.container-5 .col2
+{
+	width: percentage(2/5);
+}
+
+.container-5 .col3
+{
+	width: percentage(3/5);
+}
+
+.container-5 .col4
+{
+	width: percentage(4/5);
+}
+
+.container-5 .col5
+{
+	width: percentage(5/5);
+}
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}

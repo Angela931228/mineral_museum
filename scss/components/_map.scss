@@ -1,0 +1,54 @@
+.map_marker{
+    width: 16px;
+    height: 16px;
+    background: url(../res/mapMarker.png) no-repeat;
+    background-size: 16px;
+    opacity: 1 !important;
+    margin: auto;
+    display: block;
+    float: left;
+}
+
+.map_btn {
+   border-top: 4.5px solid $color-milky;
+   background:  $color-milky;
+   background: -webkit-gradient(linear, left top, left bottom, from($color-milky), to($color-milky));
+   background: -webkit-linear-gradient(top, $color-milky, $color-milky);
+   background: -moz-linear-gradient(top, $color-milky, $color-milky);
+   background: -ms-linear-gradient(top, $color-milky, $color-milky);
+   background: -o-linear-gradient(top, $color-milky, $color-milky );
+   padding: 3px 3px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #3d3736;
+   font-size: 12px;
+   font-family: $font-family;
+    text-decoration: none;
+    display: inline-block;
+    width: 45px;
+    padding: 1px;
+
+}
+ #map-canvas {
+                width: 500px;
+                height: 400px;
+            }
+.map_btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+.map_btn:active {
+	position:relative;
+	top:1px;
+}

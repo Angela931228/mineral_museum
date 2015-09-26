@@ -1,0 +1,62 @@
+#cityu-footer-column
+{
+	overflow: hidden;
+	clear: both;
+	padding: 12px 0px 15px 5px;
+	color: $color-milky;
+	margin: auto;
+	width: 1200px;
+}
+
+#cityu-footer-notes
+{
+	float: left;
+	color: $color-milky;
+	width: 900px;
+}
+
+#cityu-footer-links
+{
+	padding-bottom: 5px;
+	color: $color-milky;
+}
+
+#cityu-footer-links a
+{
+	padding: 0px 5px 0px 0px;
+	color: $color-milky;
+}
+
+#cityu-footer-links a + a
+{
+	padding-left: 5px;
+}
+
+#cityu-footer-icons
+{
+	float: right;
+}
+
+#cityu-footer-icons a + a
+{
+	padding-left: 10px;
+}
+
+#cityu-footer-credits
+{
+	margin-top: 5px;
+}
+
+#footer a
+{
+	color: $color-milky;
+}
+
+#footer
+{
+	height: 120px;
+	background: #968C8B;
+	margin-top: 30px;
+	font-size: 11px;
+	font-family: Helvetica, Arial, sans-serif;
+}

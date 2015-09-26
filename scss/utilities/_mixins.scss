@@ -1,0 +1,3 @@
+@mixin bgcolor-eclipse-trans($transparency){
+     background: rgba(61, 55, 54, $transparency);
+}

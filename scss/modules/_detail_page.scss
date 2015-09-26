@@ -1,0 +1,82 @@
+.detail_page, .viewer
+{
+	padding: 0 0 0 0;
+}
+
+.detail_page > img:first-child, .viewer > img
+{
+	padding: 0 0 0 0;
+	height: 100%;
+	width: 100%;
+}
+
+.detail_page
+{
+	.text_div
+	{
+		width: 300px;
+		position: fixed;
+		left: 0px;
+		bottom: 5px;
+		padding: 5px;
+
+		background-color: clear;
+
+		display: inline-block;
+		float: none;
+		vertical-align: bottom;
+	}
+
+	.caption
+	{
+		width: 270px;
+		overflow-y: auto;
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 10px;
+		text-align: left;
+		line-height: 20px;
+		font-size: 15px;
+		font-family: $font-family-des;
+		color: $color-milky;
+		background: #8D8786;
+	}
+
+	.ext_caption
+	{
+		width: 280px;
+		overflow-y: auto;
+		margin-top: 10px;
+		margin-left: 20px;
+		margin-right: 10px;
+		margin-bottom: 15px;
+		color: $color-milky;
+		font-family: $font-family-des;
+		font-size: 12px;
+		line-height: 1.4;
+	}
+}
+
+.fancybox-nav
+{
+	position: fixed;
+	width: 100px;
+	height: 50%;
+	top: 25%;
+}
+
+.fancybox-inner
+{
+	overflow: visible !important;
+}
+
+.caption .terminology_detail
+{
+	border-bottom: 2px dotted $color-milky;
+	text-decoration: none;
+}
+
+.detail_loading
+{
+	color: #BBBBBB;
+}

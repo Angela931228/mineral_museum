@@ -1,0 +1,32 @@
+#site_logo_div a
+{
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-image: url("../images/site_logo.png");
+}
+
+#cityu_logo_div a
+{
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	background-position: top left;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../images/cityu_logo.png");
+}
+
+.separator_icon
+{
+	width: 9px;
+	height: 9px;
+	background: url(../images/about_us_separator.png) no-repeat;
+	background-size: 9px;
+}

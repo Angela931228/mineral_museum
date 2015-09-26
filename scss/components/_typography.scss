@@ -1,0 +1,21 @@
+div.description
+{
+
+	bottom: 5px;
+	position: absolute;
+	bottom: 4px;
+	left: 0px;
+	min-height: 50px;
+	width: 250px;
+
+	@include bgcolor-eclipse-trans(0.7);
+}
+
+p.description_content
+{
+	padding: 8px;
+	margin: 0px;
+	font-family: $font-family;
+	font-size: 14px;
+	color: $color-milky;
+}

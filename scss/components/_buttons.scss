@@ -1,0 +1,88 @@
+.close_button_grey_div
+{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 16px;
+	height: 16px;
+	padding: 24px;
+
+	background-position: center;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	background-image: url("../images/close_button_grey.png");
+	z-index: 9999;
+}
+
+.detail_page_btn
+{
+	position: fixed;
+	right: 40px;
+	height: 26px;
+	width: 27px;
+}
+
+.mag_btn
+{
+	@extend .detail_page_btn;
+	top: 65px;
+}
+
+.mini_btn
+{
+	@extend .detail_page_btn;
+	top: 97px;
+}
+
+.min_btn
+{
+	@extend .detail_page_btn;
+	top: 20px;
+}
+
+.myClose
+{
+	position: fixed;
+	right: 40px;
+	top: 20px;
+	height: 27px;
+	width: 27px;
+	cursor: pointer;
+	z-index: 40;
+	background-image: url('../res/minimize.png');
+	background-size: 27px;
+}
+
+.nav_btn
+{
+	height: 81px;
+	cursor: pointer;
+	z-index: 8040;
+	background-size: 56px;
+	background-position: 0px 0px;
+	visibility: visible;
+}
+
+.myNext
+{
+	position: fixed;
+	right: 6%;
+	span
+	{
+		@extend .nav_btn;
+		background-image: url('../res/right_icon.png');
+	}
+
+}
+
+.myPrev
+{
+	position: fixed;
+	left: 4%;
+	span
+	{
+		@extend .nav_btn;
+		background-image: url('../res/left_icon.png');
+	}
+
+}

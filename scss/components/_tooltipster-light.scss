@@ -1,0 +1,19 @@
+.tooltipster-light {
+	
+	border-radius: 5px; 
+	border: 1px solid #bbb;
+	border-bottom: 2px solid #aaa;
+	background: #ededed;
+	color: #666666;
+	width: 20%;
+    
+	.tooltipster-content {
+		font-family: $font-family-des;
+		font-size: 12px;
+		line-height: 14px;
+		padding: 0px 2px 2px 5px;
+	}
+	a {
+		color: #666666;
+	}
+}
